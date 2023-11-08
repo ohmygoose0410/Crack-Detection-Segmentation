@@ -1,4 +1,4 @@
-# Deep Learning-Based Crack Damage Detection Using Advanced U-Net Architecture
+# Deep Learning-Based Crack Detection Using Advanced U-Net Architecture
 
 裂縫本身極細小且非線性的外觀，通常在一張影像中占比極低，若要透過模型來抓取裂縫，單純以CNN較難抓取出來精細微小的特徵(如紋理、細微深度較淺的裂痕)，模型需要具備能抓取高精度特徵的能力，且裂縫的形狀會不規則橫跨整張圖片，每處裂縫局部都有細小的裂紋，因此具備高精度影像分割功能的模型對裂縫辨識非常重要，因此我們選用Unet 模型的框架為基礎，在高精度影像分割的優點下，結合不同的backbone (ResNet、Vgg116、EfficientNet)
 
